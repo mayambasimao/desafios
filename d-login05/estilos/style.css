@@ -120,6 +120,7 @@ div.input-group {
     background-color: #ddd;
     margin-bottom: 10px;
     padding: 5px;
+    border-radius: 2px;
 }
 
 i.icon-input {
