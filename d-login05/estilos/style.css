@@ -45,7 +45,7 @@ h2#title-group1 {
 
 p.p-group1 {
     margin-bottom: 15px;
-    font-size: 14px;
+    font-size: small;
 }
 
 button.btn-group1 {
@@ -67,5 +67,87 @@ button.btn-group1:hover {
 
 div#group2 {
     flex-basis: 45vw;
-    
+    padding: 20px;
+    margin-top: 40px;
+}
+
+h1.title-group2 {
+    color: #58AF9C;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+div.icon-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+a.icon {
+    color: gray;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    margin-left: 15px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+i {
+    margin-top: 8px;
+}
+
+p.p-group2 {
+    text-align: center;
+    color: gray;
+    font-size: small;
+    margin-bottom: 15px;
+}
+
+label {
+    display: none;
+}
+
+form.form-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+div.input-group {
+    background-color: #ddd;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+i.icon-input {
+    color: gray;
+    margin-left: 5px;
+}
+
+input {
+    width: 300px;
+    margin-left: 5px;
+    border: none;
+    outline: none;
+    color: gray;
+    background-color: #ddd;
+}
+
+button.btn-submit {
+    margin-top: 15px;
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    color: white;
+    background-color: #58AF9C;
+}
+
+button.btn-submit:hover {
+    background-color: #315f55;
 }
