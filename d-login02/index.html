@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>USER LOGIN</h1>
+        <form action="login.php" method="post" class="Formulario" autocomplete="on">
+            <div class="input-group">
+                <label for="iuser">Username</label>
+                <input type="text" name="user" id="iuser" autocomplete="username" required maxlength="10" minlength="4">
+            </div>
+            <div class="input-group">
+                <label for="ipassword">Password</label>
+                <input type="password" name="password" id="ipassword" required maxlength="30" minlength="8">
+            </div>
+            <input type="submit" value="LOGIN" class="btn">
+            <a href="#">Forgot Password?</a>
+        </form>
+    </div>
+</body>
+</html>

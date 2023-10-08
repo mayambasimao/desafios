@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Login Form</h1>
+        <form action="login.php" method="post" autocomplete="on" class="formulario">
+            <div class="input-group">
+                <span class="material-symbols-outlined">mail</span>
+                <input type="email" name="email" id="iemail" placeholder="Email Address" autocomplete="email" required class="email-input">
+                <label for="iemail">Email</label>
+            </div>
+            <div class="input-group">
+                <span class="material-symbols-outlined">lock</span>
+                <input type="password" name="password" id="ipassword" placeholder="Password" autocomplete="current-password" required minlength="8" maxlength="30">
+                <label for="ipassword">Password</label>
+            </div>
+            <a href="#">Forgot password?</a>
+            <input type="submit" value="Login" class="btn">
+            <p>
+                Not a member?
+                <a href="#">Signup now</a>
+            </p>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+    background-color: #4c0c60;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+div.container {
+    background-color: white;
+    width: 500px;
+    height: 250px;
+    padding: 50px 0px 0px 0px;
+    border-radius: 2px;
+    display: block;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+form.campo {
+      margin-left: 75px;
+}
+
+input {
+    width: 350px;
+    height: 40px;
+    margin-bottom: 10px;
+    border: none;
+    text-indent: 8px;
+    font-size: 14px;
+    border-radius: 2px;
+    background-color: #f2f2f2;
+}
+
+form > input[type=submit] {
+    background-color: #FFC107;
+    color: #ffffff;
+    font-weight: bold;
+    display: block;
+    cursor: pointer;
+}
+
+p.message {
+    color: #cfcece;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+}
+
+
+
