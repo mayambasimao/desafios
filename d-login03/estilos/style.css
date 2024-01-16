@@ -30,7 +30,7 @@ h1 {
 
 form.formulario {
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 23px;
 }
 
 form.formulario > div.input-group > label {
@@ -50,6 +50,7 @@ input {
     height: 30px;
     background-color: #0a1153;
     border: none;
+    color: white;
 }
 
 input:focus {
@@ -64,6 +65,10 @@ span {
 a {
     text-decoration: none;
     color: #34d492;
+}
+
+a:hover {
+    color: #68e4b0;
 }
 
 input.btn {
