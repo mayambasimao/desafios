@@ -54,6 +54,7 @@ input {
 input#btn-submit {
     background-color: rgb(52, 168, 91);
     color: white;
+    font-weight: bold;
     height: 50px;
     cursor: pointer;
 }
